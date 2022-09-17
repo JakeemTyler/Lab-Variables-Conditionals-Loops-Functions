@@ -8,6 +8,8 @@ numQues= parseInt(numQues);
 let nameHeader="";
 nameHeader+= `${nameQues}<br>`;
 
+console.log(` ${nameHeader}`);
+
 // displaying console
     for(let preNum =1; preNum <= numQues; preNum++){
         console.log(`${preNum} : ${lineQues}`);
