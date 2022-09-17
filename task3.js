@@ -4,6 +4,9 @@ let nameQuestion = prompt("Who are the lines for? Hint, it's the punishing profe
 let lineQuestion= prompt("What is the line");
 let input= prompt ("Enter number");
 input= parseFloat(input);
+let nameHeader="";
+nameHeader+= (`${nameQuestion}`);
+console.log(` ${nameHeader}`);
 
 for (let i = 0; i < input; i++) {   
     console.log(` ${preNumber} ${lineQuestion}`);
