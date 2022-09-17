@@ -7,6 +7,8 @@ const lineForScript = () => {
     var numQues = prompt("How many lines do you want repeated?");
     numQues= parseInt(numQues);
 
+let nameHeader="";
+    nameHeader+= `${nameQues}<br>`;
     // displaying console
     for(let preNum =1; preNum <= numQues; preNum++){
         console.log(`${preNum} : ${lineQues}`);
@@ -20,11 +22,6 @@ const lineForScript = () => {
         displayStr += (` ${preNum} : ${lineQues} <br>`);
         preNum++;}
         
-    eleWrapper5.innerHTML= displayStr;
+    eleWrapper5.innerHTML= nameHeader + displayStr;
 }
 lineForScript();
-
-
-
-
-
